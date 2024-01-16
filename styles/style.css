@@ -119,20 +119,22 @@
   border: 1px black solid;
 }
 
-.header_logo {
+.header_logo-image {
   width: 148px;
   height: 105px;
   left: 454px;
-  top: 2px;
+  top: 0px;
   position: absolute;
+  z-index: 1;
 }
 
-.header_logo-image {
-  width: 124.05px;
-  height: 94.84px;
-  left: 11.39px;
-  top: 2.79px;
+.header_logo-radius {
+  width: 131px;
+  height: 100px;
+  left: 463px;
+  top: 0px;
   position: absolute;
+  border: 5px black solid;
 }
 
 .header_address {
@@ -1078,13 +1080,13 @@
   display: inline-flex;
 }
 
-.about_logo-box {
+.about_logo-circle {
   width: 240px;
   height: 240px;
   position: relative;
 }
 
-.about_logo-circle {
+.about_logo-box {
   width: 240px;
   height: 240px;
   left: 0px;
@@ -1108,7 +1110,6 @@
   left: 4.42px;
   top: 1.25px;
   position: absolute;
-  /* background: white; */
 }
 
 .about_logo-image {
@@ -1306,8 +1307,7 @@
   height: 48px;
   position: relative;
 }
-
-.footer_social-yt-circle {
+.footer_social-yt-radius {
   width: 48px;
   height: 48px;
   left: 0px;
@@ -1315,30 +1315,6 @@
   position: absolute;
   border-radius: 9999px;
   border: 1px black solid;
-}
-
-.ffooter_social-yt-center {
-  width: 26px;
-  height: 20px;
-  left: 11px;
-  top: 14px;
-  position: absolute;
-}
-
-.footer_social-yt-logo {
-  width: 26px;
-  height: 20px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-}
-
-.footer_social-yt-image {
-  width: 8.41px;
-  height: 10.13px;
-  left: 9.55px;
-  top: 5.21px;
-  position: absolute;
 }
 
 .footer_social-vk {
@@ -1347,22 +1323,14 @@
   position: relative;
 }
 
-.footer_social-vk-circle {
+.footer_social-vk-radius {
   width: 48px;
   height: 48px;
-  left: 0px;
+  left: 96px;
   top: 0px;
   position: absolute;
   border-radius: 9999px;
   border: 1px black solid;
-}
-
-.footer_social-vk-image {
-  width: 29.12px;
-  height: 18px;
-  left: 9.44px;
-  top: 14.95px;
-  position: absolute;
 }
 
 .footer_social-pinterest {
@@ -1371,20 +1339,12 @@
   position: relative;
 }
 
-.footer_social-pinterest-circle {
+.footer_social-pinterest-radius {
   width: 48px;
   height: 48px;
-  left: 0px;
+  left: 192px;
   top: 0px;
   position: absolute;
   border-radius: 9999px;
   border: 1px black solid;
-}
-
-.footer_social-pinterest-image {
-  width: 17px;
-  height: 22px;
-  left: 16px;
-  top: 13px;
-  position: absolute;
 }
