@@ -15,6 +15,7 @@
 }
 
 .header_item {
+  margin-top: 4px;
   margin-left: 50.52px;
   display: flex;
   justify-content: space-between;
@@ -139,6 +140,7 @@
 }
 
 .aligned-text-no- {
+  margin-left: -5px;
   color: white;
   font-size: 100px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -166,6 +168,7 @@
 }
 
 .aligned-text_center-be- {
+  margin-left: -5px;
   color: white;
   font-size: 100px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -194,6 +197,7 @@
 }
 
 .aligned-text_right-ad- {
+  margin-left: 3px;
   color: white;
   font-size: 100px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -205,6 +209,7 @@
 }
 
 .aligned-text_right-o- {
+  margin-left: 3px;
   color: white;
   font-size: 100px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -214,15 +219,15 @@
 }
 
 .cover_down {
-  margin-top: 140px;
+  margin-top: 136px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .subline {
-  margin-left: 78px;
-  margin-bottom: 62px;
+  margin-left: 80px;
+  margin-bottom: 56px;
   width: 637px;
   height: 28px;
   color: white;
@@ -239,7 +244,7 @@
 .button {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
-  margin-right: 50px;
+  margin-right: 52px;
   margin-bottom: 55px;
   width: 256px;
   height: 51px;
@@ -261,7 +266,7 @@
 }
 
 .card_heading {
-  margin-top: 20px;
+  margin-top: 1px;
   margin-left: 40px;
   color: black;
   font-size: 40px;
@@ -339,7 +344,7 @@
 }
 
 .card_book-text {
-  margin-top: 0px;
+  margin-top: -6px;
   margin-left: 40px;
   width: 254px;
   color: white;
@@ -418,7 +423,7 @@
 
 .about_logo-circle {
   margin-top: 35px;
-  margin-left: 47px;
+  margin-left: 74px;
   width: 240px;
   height: 240px;
   background: black;
@@ -443,6 +448,7 @@
 }
 
 .about_column-header {
+  margin-left: -24px;
   color: black;
   font-size: 40px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -459,6 +465,8 @@
 }
 
 .about_text-up {
+  margin-top: 2px;
+  margin-left: -23px;
   width: 688px;
   color: black;
   font-size: 20px;
@@ -469,6 +477,7 @@
 }
 
 .about_text-down {
+  margin-left: -23px;
   width: 693px;
   color: black;
   font-size: 20px;
@@ -482,9 +491,8 @@
   margin-top: 187px;
   margin-bottom: 88px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 50px;
 }
 
 .address_f {
@@ -493,7 +501,8 @@
 }
 
 .footer_address-1 {
-  margin-top: 5px;
+  margin-top: -7px;
+  margin-left: 50px;
   color: #000;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -506,6 +515,8 @@
 }
 
 .footer_address-2 {
+  margin-top: 3px;
+  margin-left: 49px;
   color: #000;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -518,7 +529,8 @@
 }
 
 .footer_address-3 {
-  margin-top: 1px;
+  margin-top: -2px;
+  margin-left: 51px;
   color: #000;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -533,7 +545,8 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  margin-top: -4px;
+  margin-left: 24px;
 }
 .footer_item_1 {
   color: #000;
@@ -576,20 +589,24 @@
   gap: 48px;
   width: 240px;
   height: 48px;
-  margin-top: 0px;
+  margin-top: -5px;
+  margin-left: 71px;
 }
 
 .footer_social-yt {
+  margin-left: -51px;
   width: 48px;
   height: 48px;
 }
 
 .footer_social-vk {
+  margin-left: -3px;
   width: 48px;
   height: 48px;
 }
 
 .footer_social-pinterest {
+  margin-left: 0px;
   width: 48px;
   height: 48px;
 }
